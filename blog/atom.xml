@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://sage3.github.io/blog</id>
+    <title>SAGE3 Blog</title>
+    <updated>2022-06-28T19:20:32.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://sage3.github.io/blog"/>
+    <subtitle>SAGE3 Blog</subtitle>
+    <icon>https://sage3.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Blog entry]]></title>
+        <id>/intro</id>
+        <link href="https://sage3.github.io/blog/intro"/>
+        <updated>2022-06-28T19:20:32.000Z</updated>
+        <summary type="html"><![CDATA[Something about this blog entry.]]></summary>
+        <content type="html"><![CDATA[<p>Something about this blog entry.</p>]]></content>
+    </entry>
+</feed>
