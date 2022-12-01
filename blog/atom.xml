@@ -2,17 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sage3.github.io/blog</id>
     <title>SAGE3 Blog</title>
-    <updated>2022-06-28T19:20:32.000Z</updated>
+    <updated>2022-12-01T23:02:54.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sage3.github.io/blog"/>
     <subtitle>SAGE3 Blog</subtitle>
     <icon>https://sage3.github.io/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[Clients]]></title>
+        <id>/clients</id>
+        <link href="https://sage3.github.io/blog/clients"/>
+        <updated>2022-12-01T23:02:54.000Z</updated>
+        <summary type="html"><![CDATA[Download the binary for your platform:]]></summary>
+        <content type="html"><![CDATA[<p>Download the binary for your platform:</p><ul><li>SAGE3-darwin-arm64.dmg : <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0/SAGE3-darwin-arm64.dmg.zip" target="_blank" rel="noopener noreferrer">macOS M1 processor</a></li><li>SAGE3-darwin-x64.dmg : <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0/SAGE3-darwin-x64.dmg.zip" target="_blank" rel="noopener noreferrer">macOS Intel processor</a></li><li>SAGE3-installer-win64.exe.zip: <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0/SAGE3-installer-win64.exe.zip" target="_blank" rel="noopener noreferrer">Windows installer</a></li><li>SAGE3-win64.zip: <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0/SAGE3-win64.zip" target="_blank" rel="noopener noreferrer">Windows archive</a></li><li>SAGE3-linux-client-ubuntu-20.04.zip: <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0/SAGE3-linux-client-ubuntu-20.04.zip" target="_blank" rel="noopener noreferrer">Ubuntu archive</a></li></ul>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Blog entry]]></title>
         <id>/intro</id>
         <link href="https://sage3.github.io/blog/intro"/>
         <updated>2022-06-28T19:20:32.000Z</updated>
-        <summary type="html"><![CDATA[Something about this blog entry.]]></summary>
-        <content type="html"><![CDATA[<p>Something about this blog entry.</p>]]></content>
+        <summary type="html"><![CDATA[SAGE3 is in beta]]></summary>
+        <content type="html"><![CDATA[<p>SAGE3 is in beta</p>]]></content>
     </entry>
 </feed>
