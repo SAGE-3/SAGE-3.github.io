@@ -9,7 +9,7 @@
     <icon>https://sage3.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Clients]]></title>
-        <id>/clients</id>
+        <id>https://sage3.github.io/blog/clients</id>
         <link href="https://sage3.github.io/blog/clients"/>
         <updated>2022-12-01T23:02:54.000Z</updated>
         <summary type="html"><![CDATA[Download the binary for your platform, version 1.0.1 beta:]]></summary>
@@ -17,7 +17,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Blog entry]]></title>
-        <id>/intro</id>
+        <id>https://sage3.github.io/blog/intro</id>
         <link href="https://sage3.github.io/blog/intro"/>
         <updated>2022-06-28T19:20:32.000Z</updated>
         <summary type="html"><![CDATA[SAGE3 is in beta]]></summary>
