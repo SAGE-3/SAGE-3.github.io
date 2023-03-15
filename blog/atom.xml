@@ -2,11 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sage3.github.io/blog</id>
     <title>SAGE3 Blog</title>
-    <updated>2023-02-20T21:14:29.000Z</updated>
+    <updated>2023-03-15T01:56:43.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sage3.github.io/blog"/>
     <subtitle>SAGE3 Blog</subtitle>
     <icon>https://sage3.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Quick Start Guide]]></title>
+        <id>https://sage3.github.io/blog/quickstart</id>
+        <link href="https://sage3.github.io/blog/quickstart"/>
+        <updated>2023-03-15T01:56:43.000Z</updated>
+        <summary type="html"><![CDATA[This guide is for beta Version 1.0.0-beta.12 (2023).]]></summary>
+        <content type="html"><![CDATA[<p>This guide is for beta Version 1.0.0-beta.12 (2023).</p><p>File (22MB): <a href="https://github.com/SAGE-3/next/files/10973492/SAGE3-2023.pdf" target="_blank" rel="noopener noreferrer">SAGE3-2023.pdf</a></p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Clients beta 12]]></title>
         <id>https://sage3.github.io/blog/client-02-2023</id>

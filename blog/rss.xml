@@ -4,10 +4,18 @@
         <title>SAGE3 Blog</title>
         <link>https://sage3.github.io/blog</link>
         <description>SAGE3 Blog</description>
-        <lastBuildDate>Mon, 20 Feb 2023 21:14:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Mar 2023 01:56:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Quick Start Guide]]></title>
+            <link>https://sage3.github.io/blog/quickstart</link>
+            <guid>https://sage3.github.io/blog/quickstart</guid>
+            <pubDate>Wed, 15 Mar 2023 01:56:43 GMT</pubDate>
+            <description><![CDATA[This guide is for beta Version 1.0.0-beta.12 (2023).]]></description>
+            <content:encoded><![CDATA[<p>This guide is for beta Version 1.0.0-beta.12 (2023).</p><p>File (22MB): <a href="https://github.com/SAGE-3/next/files/10973492/SAGE3-2023.pdf" target="_blank" rel="noopener noreferrer">SAGE3-2023.pdf</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Clients beta 12]]></title>
             <link>https://sage3.github.io/blog/client-02-2023</link>
