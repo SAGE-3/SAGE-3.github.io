@@ -14,7 +14,8 @@
             <guid>https://sage-3.github.io/blog/LandSage</guid>
             <pubDate>Wed, 15 Mar 2023 22:15:00 GMT</pubDate>
             <description><![CDATA[Video of SAGE3 Tutorial at 4th LandSAGE Workshop in Thailand (2023)]]></description>
-            <content:encoded><![CDATA[<p>Video of SAGE3 Tutorial at 4th LandSAGE Workshop in Thailand (2023)</p><iframe src="https://www.youtube.com/embed/bo6TsPzFeG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>]]></content:encoded>
+            <content:encoded><![CDATA[<p>Video of SAGE3 Tutorial at 4th LandSAGE Workshop in Thailand (2023)</p>
+<iframe src="https://www.youtube.com/embed/bo6TsPzFeG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Quick Start Guide]]></title>
@@ -22,7 +23,8 @@
             <guid>https://sage-3.github.io/blog/quickstart</guid>
             <pubDate>Wed, 15 Mar 2023 01:56:43 GMT</pubDate>
             <description><![CDATA[This guide is for beta Version 1.0.0-beta.12 (2023).]]></description>
-            <content:encoded><![CDATA[<p>This guide is for beta Version 1.0.0-beta.12 (2023).</p><p>File (22MB): <a href="https://github.com/SAGE-3/next/files/10973492/SAGE3-2023.pdf" target="_blank" rel="noopener noreferrer">SAGE3-2023.pdf</a></p>]]></content:encoded>
+            <content:encoded><![CDATA[<p>This guide is for beta Version 1.0.0-beta.12 (2023).</p>
+<p>File (22MB): <a href="https://github.com/SAGE-3/next/files/10973492/SAGE3-2023.pdf" target="_blank" rel="noopener noreferrer">SAGE3-2023.pdf</a></p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Clients beta 12]]></title>
@@ -30,7 +32,14 @@
             <guid>https://sage-3.github.io/blog/client-02-2023</guid>
             <pubDate>Mon, 20 Feb 2023 21:14:29 GMT</pubDate>
             <description><![CDATA[Download the binary for your platform, version 1.0.1 beta:]]></description>
-            <content:encoded><![CDATA[<p>Download the binary for your platform, version 1.0.1 beta:</p><ul><li>SAGE3-darwin-arm64.dmg : <a href="https://sage3.sagecommons.org?download=next-macos-arm" target="_blank" rel="noopener noreferrer">macOS M1 processor</a></li><li>SAGE3-darwin-x64.dmg : <a href="https://sage3.sagecommons.org?download=next-macos-intel" target="_blank" rel="noopener noreferrer">macOS Intel processor</a></li><li>SAGE3-installer-win64.exe.zip: <a href="https://sage3.sagecommons.org?download=next-windows" target="_blank" rel="noopener noreferrer">Windows installer</a></li><li>SAGE3-win64.zip: <a href="https://sage3.sagecommons.org?download=next-windows-2" target="_blank" rel="noopener noreferrer">Windows archive</a></li><li>SAGE3-linux-client-ubuntu-20.04.zip: <a href="https://sage3.sagecommons.org?download=next-linux" target="_blank" rel="noopener noreferrer">Ubuntu archive</a></li></ul>]]></content:encoded>
+            <content:encoded><![CDATA[<p>Download the binary for your platform, version 1.0.1 beta:</p>
+<ul>
+<li>SAGE3-darwin-arm64.dmg : <a href="https://sage3.sagecommons.org/?download=next-macos-arm" target="_blank" rel="noopener noreferrer">macOS M1 processor</a></li>
+<li>SAGE3-darwin-x64.dmg : <a href="https://sage3.sagecommons.org/?download=next-macos-intel" target="_blank" rel="noopener noreferrer">macOS Intel processor</a></li>
+<li>SAGE3-installer-win64.exe.zip: <a href="https://sage3.sagecommons.org/?download=next-windows" target="_blank" rel="noopener noreferrer">Windows installer</a></li>
+<li>SAGE3-win64.zip: <a href="https://sage3.sagecommons.org/?download=next-windows-2" target="_blank" rel="noopener noreferrer">Windows archive</a></li>
+<li>SAGE3-linux-client-ubuntu-20.04.zip: <a href="https://sage3.sagecommons.org/?download=next-linux" target="_blank" rel="noopener noreferrer">Ubuntu archive</a></li>
+</ul>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Clients beta 1]]></title>
@@ -38,7 +47,14 @@
             <guid>https://sage-3.github.io/blog/clients</guid>
             <pubDate>Thu, 01 Dec 2022 23:02:54 GMT</pubDate>
             <description><![CDATA[Download the binary for your platform, version 1.0.1 beta:]]></description>
-            <content:encoded><![CDATA[<p>Download the binary for your platform, version 1.0.1 beta:</p><ul><li>SAGE3-darwin-arm64.dmg : <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-darwin-arm64.dmg.zip" target="_blank" rel="noopener noreferrer">macOS M1 processor</a></li><li>SAGE3-darwin-x64.dmg : <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-darwin-x64.dmg.zip" target="_blank" rel="noopener noreferrer">macOS Intel processor</a></li><li>SAGE3-installer-win64.exe.zip: <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-installer-win64.exe.zip" target="_blank" rel="noopener noreferrer">Windows installer</a></li><li>SAGE3-win64.zip: <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-win64.zip" target="_blank" rel="noopener noreferrer">Windows archive</a></li><li>SAGE3-linux-client-ubuntu-20.04.zip: <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-linux-client-ubuntu-20.04.zip" target="_blank" rel="noopener noreferrer">Ubuntu archive</a></li></ul>]]></content:encoded>
+            <content:encoded><![CDATA[<p>Download the binary for your platform, version 1.0.1 beta:</p>
+<ul>
+<li>SAGE3-darwin-arm64.dmg : <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-darwin-arm64.dmg.zip" target="_blank" rel="noopener noreferrer">macOS M1 processor</a></li>
+<li>SAGE3-darwin-x64.dmg : <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-darwin-x64.dmg.zip" target="_blank" rel="noopener noreferrer">macOS Intel processor</a></li>
+<li>SAGE3-installer-win64.exe.zip: <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-installer-win64.exe.zip" target="_blank" rel="noopener noreferrer">Windows installer</a></li>
+<li>SAGE3-win64.zip: <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-win64.zip" target="_blank" rel="noopener noreferrer">Windows archive</a></li>
+<li>SAGE3-linux-client-ubuntu-20.04.zip: <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-linux-client-ubuntu-20.04.zip" target="_blank" rel="noopener noreferrer">Ubuntu archive</a></li>
+</ul>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[First post]]></title>
