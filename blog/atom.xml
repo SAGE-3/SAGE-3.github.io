@@ -23,7 +23,7 @@
         <updated>2023-03-15T01:56:43.000Z</updated>
         <summary type="html"><![CDATA[This guide is for beta Version 1.0.0-beta.12 (2023).]]></summary>
         <content type="html"><![CDATA[<p>This guide is for beta Version 1.0.0-beta.12 (2023).</p>
-<p>File (22MB): <a href="https://github.com/SAGE-3/next/files/10973492/SAGE3-2023.pdf" target="_blank" rel="noopener noreferrer">SAGE3-2023.pdf</a></p>]]></content>
+<p>File (22MB): <a href="https://github.com/SAGE-3/next/files/10973492/SAGE3-2023.pdf" target="_blank" rel="noopener noreferrer" class="">SAGE3-2023.pdf</a></p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Clients beta 12]]></title>
@@ -33,11 +33,11 @@
         <summary type="html"><![CDATA[Download the binary for your platform, version 1.0.1 beta:]]></summary>
         <content type="html"><![CDATA[<p>Download the binary for your platform, version 1.0.1 beta:</p>
 <ul>
-<li>SAGE3-darwin-arm64.dmg : <a href="https://sage3.sagecommons.org/?download=next-macos-arm" target="_blank" rel="noopener noreferrer">macOS M1 processor</a></li>
-<li>SAGE3-darwin-x64.dmg : <a href="https://sage3.sagecommons.org/?download=next-macos-intel" target="_blank" rel="noopener noreferrer">macOS Intel processor</a></li>
-<li>SAGE3-installer-win64.exe.zip: <a href="https://sage3.sagecommons.org/?download=next-windows" target="_blank" rel="noopener noreferrer">Windows installer</a></li>
-<li>SAGE3-win64.zip: <a href="https://sage3.sagecommons.org/?download=next-windows-2" target="_blank" rel="noopener noreferrer">Windows archive</a></li>
-<li>SAGE3-linux-client-ubuntu-20.04.zip: <a href="https://sage3.sagecommons.org/?download=next-linux" target="_blank" rel="noopener noreferrer">Ubuntu archive</a></li>
+<li class="">SAGE3-darwin-arm64.dmg : <a href="https://sage3.sagecommons.org/?download=next-macos-arm" target="_blank" rel="noopener noreferrer" class="">macOS M1 processor</a></li>
+<li class="">SAGE3-darwin-x64.dmg : <a href="https://sage3.sagecommons.org/?download=next-macos-intel" target="_blank" rel="noopener noreferrer" class="">macOS Intel processor</a></li>
+<li class="">SAGE3-installer-win64.exe.zip: <a href="https://sage3.sagecommons.org/?download=next-windows" target="_blank" rel="noopener noreferrer" class="">Windows installer</a></li>
+<li class="">SAGE3-win64.zip: <a href="https://sage3.sagecommons.org/?download=next-windows-2" target="_blank" rel="noopener noreferrer" class="">Windows archive</a></li>
+<li class="">SAGE3-linux-client-ubuntu-20.04.zip: <a href="https://sage3.sagecommons.org/?download=next-linux" target="_blank" rel="noopener noreferrer" class="">Ubuntu archive</a></li>
 </ul>]]></content>
     </entry>
     <entry>
@@ -48,11 +48,11 @@
         <summary type="html"><![CDATA[Download the binary for your platform, version 1.0.1 beta:]]></summary>
         <content type="html"><![CDATA[<p>Download the binary for your platform, version 1.0.1 beta:</p>
 <ul>
-<li>SAGE3-darwin-arm64.dmg : <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-darwin-arm64.dmg.zip" target="_blank" rel="noopener noreferrer">macOS M1 processor</a></li>
-<li>SAGE3-darwin-x64.dmg : <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-darwin-x64.dmg.zip" target="_blank" rel="noopener noreferrer">macOS Intel processor</a></li>
-<li>SAGE3-installer-win64.exe.zip: <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-installer-win64.exe.zip" target="_blank" rel="noopener noreferrer">Windows installer</a></li>
-<li>SAGE3-win64.zip: <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-win64.zip" target="_blank" rel="noopener noreferrer">Windows archive</a></li>
-<li>SAGE3-linux-client-ubuntu-20.04.zip: <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-linux-client-ubuntu-20.04.zip" target="_blank" rel="noopener noreferrer">Ubuntu archive</a></li>
+<li class="">SAGE3-darwin-arm64.dmg : <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-darwin-arm64.dmg.zip" target="_blank" rel="noopener noreferrer" class="">macOS M1 processor</a></li>
+<li class="">SAGE3-darwin-x64.dmg : <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-darwin-x64.dmg.zip" target="_blank" rel="noopener noreferrer" class="">macOS Intel processor</a></li>
+<li class="">SAGE3-installer-win64.exe.zip: <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-installer-win64.exe.zip" target="_blank" rel="noopener noreferrer" class="">Windows installer</a></li>
+<li class="">SAGE3-win64.zip: <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-win64.zip" target="_blank" rel="noopener noreferrer" class="">Windows archive</a></li>
+<li class="">SAGE3-linux-client-ubuntu-20.04.zip: <a href="https://github.com/SAGE-3/sage3-public/releases/download/1.0.1/SAGE3-linux-client-ubuntu-20.04.zip" target="_blank" rel="noopener noreferrer" class="">Ubuntu archive</a></li>
 </ul>]]></content>
     </entry>
     <entry>
