@@ -5,7 +5,7 @@
 <meta name="generator" content="Docusaurus v3.10.2">
 <title data-rh="true">SAGE3 Server Update | SAGE3</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://sage-3.github.io/docs/Server-update"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="SAGE3 Server Update | SAGE3"><meta data-rh="true" name="description" content="Date: 08/16/2026 (updating to server v1.6)"><meta data-rh="true" property="og:description" content="Date: 08/16/2026 (updating to server v1.6)"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://sage-3.github.io/docs/Server-update"><link data-rh="true" rel="alternate" href="https://sage-3.github.io/docs/Server-update" hreflang="en"><link data-rh="true" rel="alternate" href="https://sage-3.github.io/docs/Server-update" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SAGE3 Server Update","item":"https://sage-3.github.io/docs/Server-update"}]}</script><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="SAGE3 RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="SAGE3 Atom Feed"><link rel="stylesheet" href="/assets/css/styles.66b281a8.css">
-<script src="/assets/js/runtime~main.869b522e.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.f956cc99.js" defer="defer"></script>
 <script src="/assets/js/main.2663c48a.js" defer="defer"></script>
 </head>
 <body>
@@ -54,6 +54,15 @@
 <p><strong>Check your <code>.env</code></strong> against the new <code>.env.template</code>: it now includes <code>CHROMA_SERVER_AUTHN_CREDENTIALS</code> / <code>CHROMA_CLIENT_AUTH_CREDENTIALS</code> (change the defaults) and the replica counts.</p>
 </li>
 </ol>
+<h1>Screen sharing without Twilio (self-hosted LiveKit)</h1>
+<p>Screen sharing no longer needs a Twilio account. The package now includes a self-hosted <a href="https://livekit.io" target="_blank" rel="noopener noreferrer" class="">LiveKit</a> video server, and Twilio is kept only for servers that already use it (when both are configured, LiveKit is used). To turn it on when updating an existing server:</p>
+<ol>
+<li class="">Generate the one credential in <code>.env</code>: <code>LIVEKIT_API_SECRET=$(uuidgen)</code> (32+ characters). Empty means no screen sharing, and the <code>livekit-server</code> container will then refuse to start, so comment it out of <code>docker-compose.yml</code> if you leave it empty.</li>
+<li class="">Copy the new <code>docker-compose.yml</code> (it contains the <code>livekit-server</code> service and passes the secret to <code>node-server</code>), and the new <code>configurations/livekit/livekit.yaml</code>. Nothing in that file needs editing.</li>
+<li class="">Open <code>7882/udp</code> and <code>7881/tcp</code> on the host firewall (forwarded, if behind NAT). Signaling uses the existing HTTPS port.</li>
+<li class="">Nothing changes in <code>sage3-prod.hjson</code>. After <code>./GO</code>, the <code>node-server</code> log shows <code>Configuration&gt; screenshare backend: livekit</code>.</li>
+</ol>
+<p>The full step-by-step, including adding the service to an existing compose file by hand, is in <code>configurations/livekit/ADDING-LIVEKIT.md</code> in the package, and the ports and troubleshooting are in the <a class="" href="/docs/Server-Deployment#screen-sharing">Server Deployment</a> guide.</p>
 <h1>Docker</h1>
 <ul>
 <li class=""><strong>Copy the new ‘docker-compose.yml’ file from the new folder into your installation directory.</strong></li>
@@ -78,9 +87,10 @@
 <li class="">`jupyter`: jupyter server</li>
 <li class="">`chromadb`: vector database for AI services</li>
 <li class="">`seer`: Python backend for AI services</li>
+<li class="">`livekit-server`: self-hosted video server for screen sharing (optional, publishes 7881/tcp and 7882/udp)</li>
 </ul>
 </li>
-<li class="">Check your `.env` file, but it should not require an update:<!-- -->
+<li class="">Check your `.env` file; the only addition is the optional screen-sharing secret:<!-- -->
 <ul>
 <li class="">SAGE3_SERVER= [full name of your server]</li>
 <li class="">ENVIRONMENT=production</li>
@@ -89,6 +99,7 @@
 <li class="">Might need a renewal after a year</li>
 </ul>
 </li>
+<li class="">LIVEKIT_API_SECRET=  [new, optional: any 32+ character value turns on self-hosted screen sharing, see above]</li>
 </ul>
 </li>
 </ul>
@@ -121,7 +132,7 @@
 </li>
 <li class="">Services:<!-- -->
 <ul>
-<li class="">Twilio: screen sharing key (copy from old configuration)</li>
+<li class="">Twilio: screen sharing key (copy from old configuration), or leave it empty and use the self-hosted screen sharing (see &quot;Screen sharing without Twilio&quot; above)</li>
 <li class="">Openai: API key, optional</li>
 </ul>
 </li>
@@ -134,11 +145,6 @@
 <li class="">Namespace<!-- -->
 <ul>
 <li class="">Copy the key from old configuration</li>
-</ul>
-</li>
-<li class="">Feedback URL<!-- -->
-<ul>
-<li class=""><code>&quot;feedback&quot;: { &quot;url&quot;: &quot;http://sage3-server-status.cis230038.projects.jetstream-cloud.org:3000/feedback&quot; },</code></li>
 </ul>
 </li>
 <li class="">Services:</li>
